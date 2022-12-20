@@ -15,6 +15,7 @@ macchanger --version
 ```bash
 ip addr sh
 ```
+- The interface you want to use is the **one** other than the loopback device [ lo ]
 
 ## Usage of the Script
 
