@@ -23,6 +23,7 @@ ip addr sh
 chmod +x mac.sh
 sudo bash mach.sh
 ```
-
+- input the interface & **BAM!** your MAC Address has been changed! 
+- Hehe, Welcome
 
 
