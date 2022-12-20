@@ -1,15 +1,19 @@
 #!/bin/bash
 
+echo Enter the Network Interface :
+
+read interface
+
 change(){
-  sudo ifconfig wlp0s20f3 down;
+  sudo ifconfig $interface down;
 }
 
 now(){
-  sudo macchanger -r wlp0s20f3;
+  sudo macchanger -r $interface;
 }
 
 ok(){
-  sudo ifconfig wlp0s20f3 up;
+  sudo ifconfig $interface up;
 }
 
 change
