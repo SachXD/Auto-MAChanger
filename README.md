@@ -1,4 +1,4 @@
-# Auto-macchanger
+# Auto-MACchanger
 This Script was personally used by me to evade McAfee's Privacy Error
 
 # Installation and Usage
